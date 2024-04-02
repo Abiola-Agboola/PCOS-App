@@ -3,6 +3,9 @@ import pandas as pd
 import pickle as pickle
 import plotly.graph_objects as go
 import numpy as np
+
+pip install plotly
+import plotly.graph_objects as go
 # Load the trained model and data
 data = pd.read_csv(r'C:\Users\User\Downloads\cleaned.csv', encoding='ISO-8859-1')
 
