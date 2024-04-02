@@ -4,7 +4,7 @@ import pickle as pickle
 import numpy as np
 
 # Load the trained model and data
-data = pd.read_csv(r'C:\Users\User\Downloads\cleaned.csv', encoding='ISO-8859-1')
+#data = pd.read_csv(r'C:\Users\User\Downloads\cleaned.csv', encoding='ISO-8859-1')
 
 st.set_page_config(page_title="PCOS Predictor", page_icon="🧊", layout="wide")
 
