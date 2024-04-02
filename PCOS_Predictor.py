@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle as pickle
-import plotly.graph_objects as go
 import numpy as np
 
 # Load the trained model and data
