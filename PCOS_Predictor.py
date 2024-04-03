@@ -173,8 +173,20 @@ with st.container():
         st.plotly_chart(radar_chart)
     with col2:
         add_predictions(slider_vals, selectbox_vals)
-        
-        
+
+# Add navigation links to the four pages
+st.sidebar.title("Navigation")
+pages = ["Exercise", "PCOS Predictor", "Device Reading", "Home Page"]
+selected_page = st.sidebar.radio("Go to", pages, index=pages.index("Home Page"))
+
+if selected_page == "Exercise":
+    st.sidebar.markdown("[Go to Exercise Page](https://pcos-app-exercise.streamlit.app/)")
+elif selected_page == "PCOS Predictor":
+    st.sidebar.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
+elif selected_page == "Device Reading":
+    st.sidebar.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
+elif selected_page == "Home Page":
+    st.sidebar.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)")
         
 #if _name_ == '_main_':
     #main()
