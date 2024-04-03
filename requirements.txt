@@ -27,6 +27,4 @@ seaborn==0.10.1
 six==1.16.0
     # via python-dateutil
 platformdirs==3.10.0
-plotly @ file:///C:/ci_311/plotly_1676443558683/work
-pluggy @ file:///C:/ci_311/pluggy_1676422178143/work
 ply==3.11
