@@ -133,7 +133,7 @@ def add_predictions(slider_vals, selectbox_vals):
             st.error("Confirmation of PCOS is evident")
             # Directly link to the nutrition page
             st.markdown("[Go to Nutrition Page](https://pcos-app-home.streamlit.app/)")
-            st.markdown("[Go to Exercise Page](https://pcos-app-pcos--exercises.streamlit.app/)")
+            st.markdown("[Go to Exercise Page](https://pcos-app-pcos-exercise.streamlit.app/)")
             
         st.write("Probability of being no evidence of PCOS: ", PCOSmodel.predict_proba(scaled_input_array)[0][0])
         st.write("Probability confirmation of PCOS is evident: ", PCOSmodel.predict_proba(scaled_input_array)[0][1])
