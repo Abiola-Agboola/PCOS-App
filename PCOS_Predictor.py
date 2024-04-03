@@ -180,7 +180,7 @@ st.title("Navigation")
     st.markdown("[Go to Exercise Page](https://pcos-app-exercise.streamlit.app/)")
     st.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
     st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
-    st.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)"
+    st.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)")
         
 #if _name_ == '_main_':
     #main()
