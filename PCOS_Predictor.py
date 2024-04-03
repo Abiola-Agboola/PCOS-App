@@ -175,8 +175,8 @@ with st.container():
     with col2:
         add_predictions(slider_vals, selectbox_vals)
 
-# Add navigation links to the four pages
-st.title("Navigation")
+    # Add navigation links to the four pages
+    st.title("Navigation")
     st.markdown("[Go to Exercise Page](https://pcos-app-exercise.streamlit.app/)")
     st.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
     st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
