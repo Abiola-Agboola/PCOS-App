@@ -6,10 +6,10 @@ import os  # Add this line to import the os module
 exercise_data = pd.read_csv('cleaned_features.csv')
 
 # Add navigation links to the four pages
-    st.title("")
-    st.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
-    st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
-    st.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)")
+st.title("")
+st.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
+st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
+st.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)")
 
 # Define a session state to keep track of the current page
 class SessionState:
