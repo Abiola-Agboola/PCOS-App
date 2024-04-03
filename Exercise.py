@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import os  # Add this line to import the os module
 
-exercise_data = pd.read_csv('cleaned_features.csv', encoding='ISO-8859-1')
+exercise_data = pd.read_csv('cleaned_features.csv')
 # Define a session state to keep track of the current page
 class SessionState:
     def __init__(self):
