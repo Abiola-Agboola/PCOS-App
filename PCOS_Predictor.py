@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import pickle as pickle
 import numpy as np
+import plotly.graph_objects as go  # Import plotly for radar chart
 
 # Load the trained model and data
-data = pd.read_csv(r'C:\Users\User\Downloads\cleaned.csv', encoding='ISO-8859-1')
+data = pd.read_csv('cleaned.csv', encoding='ISO-8859-1')
 
 st.set_page_config(page_title="PCOS Predictor", page_icon="🧊", layout="wide")
 
