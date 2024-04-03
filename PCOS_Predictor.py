@@ -7,13 +7,6 @@ import plotly.graph_objects as go  # Import plotly for radar chart
 # Load the trained model and data
 data = pd.read_csv('cleaned.csv', encoding='ISO-8859-1')
 
-# Add the viewport meta tag to ensure proper rendering on mobile devices
-st.markdown(
-    """
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    """,
-    unsafe_allow_html=True
-)
 
 st.set_page_config(page_title="PCOS Predictor", page_icon="🧊", layout="wide")
 
@@ -181,9 +174,6 @@ with st.container():
         st.plotly_chart(radar_chart)
     with col2:
         add_predictions(slider_vals, selectbox_vals)
-
-    # Add navigation links
-    add_navigation_links()
 
 # Add navigation links to the four pages
 st.sidebar.title("Navigation")
