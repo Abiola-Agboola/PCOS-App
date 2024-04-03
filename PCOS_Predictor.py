@@ -177,8 +177,7 @@ with st.container():
 
     # Add navigation links to the four pages
     st.title("")
-    st.markdown("[Go to Exercise Page](https://pcos-app-exercise.streamlit.app/)")
-    st.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
+    st.markdown("[Go to Exercise Page](https://pcos-app-pcos-exercise.streamlit.app/)")
     st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
     st.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)")
         
