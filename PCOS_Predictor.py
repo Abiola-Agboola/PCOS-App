@@ -182,6 +182,9 @@ with st.container():
     with col2:
         add_predictions(slider_vals, selectbox_vals)
 
+    # Add navigation links
+    add_navigation_links()
+
 # Add navigation links to the four pages
 st.sidebar.title("Navigation")
 pages = ["Exercise", "PCOS Predictor", "Device Reading", "Home Page"]
