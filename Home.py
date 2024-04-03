@@ -7,6 +7,13 @@ import pandas as pd
 # Load the trained model and data
 data = pd.read_csv('updated_nutri.csv', encoding='ISO-8859-1')
 
+# Add navigation links to the four pages
+    st.title("")
+    st.markdown("[Go to Exercise Page](https://pcos-app-pcos-exercise.streamlit.app/)")
+    st.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
+    st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
+    st.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)")
+
 # Define the main definition link
 main_definition_link = "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
 About_PCOS_link = "https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/"
