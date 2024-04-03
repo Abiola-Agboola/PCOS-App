@@ -5,7 +5,7 @@ from datetime import datetime, time
 import pandas as pd
 
 # Load the trained model and data
-data = pd.read_csv(r'C:\Users\User\Updated_nutri.csv', encoding='ISO-8859-1')
+data = pd.read_csv(Updated_nutri.csv', encoding='ISO-8859-1')
 
 # Define the main definition link
 main_definition_link = "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
