@@ -9,6 +9,7 @@ data = pd.read_csv('updated_nutri.csv', encoding='ISO-8859-1')
 
 # Add navigation links to the four pages
 st.title("")
+st.markdown("[Home](https://pcos-app-home.streamlit.app/)")
 st.markdown("[Exercise](https://pcos-app-pcos-exercise.streamlit.app/)")
 st.markdown("[PCOS Predictor](https://pcos-app-pcos-predictor.streamlit.app/)")
 st.markdown("[Device Reading](https://pcos-app-device-reading.streamlit.app/)")
