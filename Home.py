@@ -9,9 +9,9 @@ data = pd.read_csv('updated_nutri.csv', encoding='ISO-8859-1')
 
 # Add navigation links to the four pages
 st.title("")
-st.markdown("[Go to Exercise Page](https://pcos-app-pcos-exercise.streamlit.app/)")
-st.markdown("[Go to PCOS Predictor Page](https://pcos-app-pcos-predictor.streamlit.app/)")
-st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
+st.markdown("[Exercise](https://pcos-app-pcos-exercise.streamlit.app/)")
+st.markdown("[PCOS Predictor](https://pcos-app-pcos-predictor.streamlit.app/)")
+st.markdown("[Device Reading](https://pcos-app-device-reading.streamlit.app/)")
 
 # Define the main definition link
 main_definition_link = "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
