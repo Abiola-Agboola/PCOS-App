@@ -5,9 +5,9 @@ import os
 
 # Add navigation links to the four pages
 st.title("")
+st.markdown("[Home](https://pcos-app-home.streamlit.app/)")
 st.markdown("[Exercise](https://pcos-app-pcos-exercise.streamlit.app/)")
 st.markdown("[PCOS Predictor](https://pcos-app-pcos-predictor.streamlit.app/)")
-st.markdown("[Home](https://pcos-app-home.streamlit.app/)")
 
 # Load the data and model
 exercise_data = pd.read_csv('cleaned_features.csv', encoding='ISO-8859-1')
