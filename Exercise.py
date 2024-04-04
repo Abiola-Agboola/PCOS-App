@@ -7,9 +7,9 @@ exercise_data = pd.read_csv('cleaned_features.csv')
 
 # Add navigation links to the four pages
 st.title("")
+st.markdown("[Home](https://pcos-app-home.streamlit.app/)")
 st.markdown("[PCOS Predictor](https://pcos-app-pcos-predictor.streamlit.app/)")
 st.markdown("[Device Reading](https://pcos-app-device-reading.streamlit.app/)")
-st.markdown("[Home](https://pcos-app-home.streamlit.app/)")
 
 # Define a session state to keep track of the current page
 class SessionState:
