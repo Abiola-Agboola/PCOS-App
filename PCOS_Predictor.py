@@ -7,7 +7,12 @@ import plotly.graph_objects as go  # Import plotly for radar chart
 # Load the trained model and data
 data = pd.read_csv('cleaned.csv', encoding='ISO-8859-1')
 
-
+# Add navigation links to the four pages
+st.title("")
+st.markdown("[Exercise](https://pcos-app-pcos-exercise.streamlit.app/)")
+st.markdown("[Device Reading](https://pcos-app-device-reading.streamlit.app/)")
+st.markdown("[Home](https://pcos-app-home.streamlit.app/)")
+        
 st.set_page_config(page_title="PCOS Predictor", page_icon="🧊", layout="wide")
 
 def add_sidebar():
@@ -175,12 +180,6 @@ with st.container():
     with col2:
         add_predictions(slider_vals, selectbox_vals)
 
-    # Add navigation links to the four pages
-    st.title("")
-    st.markdown("[Go to Exercise Page](https://pcos-app-pcos-exercise.streamlit.app/)")
-    st.markdown("[Go to Device Reading Page](https://pcos-app-device-reading.streamlit.app/)")
-    st.markdown("[Go to Home Page](https://pcos-app-home.streamlit.app/)")
-        
 #if _name_ == '_main_':
     #main()
     
