@@ -4,16 +4,17 @@ import pickle as pickle
 import numpy as np
 import plotly.graph_objects as go  # Import plotly for radar chart
 
+# Load the trained model and data
+data = pd.read_csv('cleaned.csv', encoding='ISO-8859-1')
+        
+st.set_page_config(page_title="PCOS Predictor", page_icon="🧊", layout="wide")
+
+
 # Add navigation links to the four pages
 st.title("")
 st.markdown("[Exercise](https://pcos-app-pcos-exercise.streamlit.app/)")
 st.markdown("[Device Reading](https://pcos-app-device-reading.streamlit.app/)")
 st.markdown("[Home](https://pcos-app-home.streamlit.app/)")
-
-# Load the trained model and data
-data = pd.read_csv('cleaned.csv', encoding='ISO-8859-1')
-        
-st.set_page_config(page_title="PCOS Predictor", page_icon="🧊", layout="wide")
 
 def add_sidebar():
     st.sidebar.header("Health Metrics Assessment")
